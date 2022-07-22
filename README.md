@@ -16,7 +16,6 @@ We got our data from the National 2009 H1N1 Flu Survey. This data was sponsored 
 
 Our original data had information about H1N1 vaccines as well as seasonal flu vaccines. Since our employers only asked us to deal with seasonal flu data, we immediatly dropped all of the columns pertaining to H1N1 vaccines.
 
-
 Furthermore, we also dropped several survey response columns as well. For instance, there were columns asking if a person was worried about getting the flu or not. Another one asked respondents if they had avoided large groups to stay healthy, but what exactly constitutes a large group? Because these columns were not strictly objective with their information, we dropped them as well.
 
 # Modeling
@@ -43,8 +42,7 @@ Some people will get a vaccine without any encourgament. Some will never get a v
 
 # Repo Navigation
 
-├── Notebooks        <- Working notebooks. 
-├── Data             <- Data Folder 
-├── .gitignore          
+├── Notebooks        <- Working notebooks.  
 ├── License          
 ├── Final Notebook   <- Report Notebook         
+├── README.md        <- The top-level README for developers using this project.
