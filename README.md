@@ -8,13 +8,14 @@ Recently, a community outreach program has reached out to us. They want to incre
 
 # About the Data
 
-We got our data from the National 2009 H1N1 Flu Survey. This data was sposnored by the CDC and was originally used to produce estimates of vaccinaation coverage rates across the United States.
+We got our data from the National 2009 H1N1 Flu Survey. This data was sponsored by the CDC and was originally used to produce estimates of vaccination coverage rates across the United States.
 
  The original data had 26,000 columns and 36 columns; however, we ended up only using 18 columns. The data had information about H1N1 and seasonal flu vaccines, sex, race, education, and many other factors.
 
 # Methods
 
-Our original data had information about H1N1 vaccines as well as seasonal flu vaccines. Since our employers only asked us to deal with seasonal flu data, we immediatly dropped all of the columns pertaining to h1n1 vaccines.
+Our original data had information about H1N1 vaccines as well as seasonal flu vaccines. Since our employers only asked us to deal with seasonal flu data, we immediatly dropped all of the columns pertaining to H1N1 vaccines.
+
 
 Furthermore, we also dropped several survey response columns as well. For instance, there were columns asking if a person was worried about getting the flu or not. Another one asked respondents if they had avoided large groups to stay healthy, but what exactly constitutes a large group? Because these columns were not strictly objective with their information, we dropped them as well.
 
@@ -26,7 +27,7 @@ Next, we created a variety of baseline models. We had a KNN model, a decision tr
 
 # Final Model
 
-Our final model was a decision tree we ran a gridsearch on. With this model, we can predict whether or not an individual has received their flu vaccine with 75% certainty. 
+Our final model was a decision tree we ran a gridsearch on. With our best parameters for this model, we can predict whether or not an individual has received their flu vaccine with 75% certainty.
 
 # Conclusion
 
@@ -38,11 +39,12 @@ This project was fascinating, and if we had had more time in the project, we wou
 
 We would also like to experiment with different feature combinations to see if we could create a better model. The last thing we would like to do is find a "convinceable target."
 
-Some people will get a vaccine without any encourgament. Some will never get a vaccine despite how much encouragement they receive. However, there is a population that will get their vaccine with encouragement that would not without that help. By finding what charateristics make up this populaiton or 'convinceable target', we can reach out to them and have more people be vaccinated. 
+Some people will get a vaccine without any encourgament. Some will never get a vaccine despite how much encouragement they receive. However, there is a population that will get their vaccine with encouragement that would not without that help. By finding what charateristics make up this population or 'convinceable target', we can reach out to them and have more people be vaccinated. 
 
 # Repo Navigation
 
-├── Notebooks        <- Working notebooks.
+├── Notebooks        <- Working notebooks. 
+├── Data             <- Data Folder 
+├── .gitignore          
 ├── License          
-├── Final Notebook   <- Report Notebook
-├── README.md        <- The top-level README for developers using this project.
+├── Final Notebook   <- Report Notebook         
